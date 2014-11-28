@@ -1,0 +1,20 @@
+{
+    "browser": true,        //Browser environment
+    "globals": {
+        "amd": true,        //RequireJS
+        "define": true,     //RequireJS
+        "console": true     //Allow console.info etc.
+    },
+    "globalstrict": true,   //Allow global "use strict"
+    "strict": false,        //Don't requires all functions run in ES5 Strict Mode
+    "quotmark": true,       //Quotation mark consistency, use 'foo' or "foo"
+    "smarttabs": false,     //Don't use tabs for indenting
+    "trailing": true,       //Don't leave trailing whitespaces
+    "undef": true,          //Require all non-global variables to be declared
+    "unused": true,         //Require all defined variables be used
+    "eqeqeq": true,         //Require triple equals (===) for comparison
+    "forin": true,          //Require filtering for..in loops with obj.hasOwnProperty()
+    "noempty": true,        //Prohibit use of empty blocks
+    "newcap": true,         //Require capitalization of all constructor functions
+    "curly": true           //Require {} for every new block or scope
+}
