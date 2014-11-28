@@ -3,6 +3,7 @@
     "globals": {
         "amd": true,        //RequireJS
         "define": true,     //RequireJS
+        "module": true,     //RequireJS
         "console": true     //Allow console.info etc.
     },
     "globalstrict": true,   //Allow global "use strict"
