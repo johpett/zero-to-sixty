@@ -8,7 +8,7 @@
     },
     "globalstrict": true,   //Allow global "use strict"
     "strict": false,        //Don't requires all functions run in ES5 Strict Mode
-    "quotmark": true,       //Quotation mark consistency, use 'foo' or "foo"
+    "quotmark": false,      //Quotation mark consistency, use 'foo' or "foo"
     "smarttabs": false,     //Don't use tabs for indenting
     "trailing": true,       //Don't leave trailing whitespaces
     "undef": true,          //Require all non-global variables to be declared
