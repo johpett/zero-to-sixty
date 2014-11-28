@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing</title>
+
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rancho">
+
+        <style>
+            body {
+                font-size: 48px;
+                background-color: white;
+            }
+            div {
+                font-family: 'Tangerine', serif;
+                color: red;
+            }
+            span {
+                font-family: 'Rancho', serif;
+                color: blue;
+            }
+        </style>
+
+        <script type="text/javascript">
+            window.onload = function() {
+                console.log("Step 1.");
+                var foo = 'breaking a jshint rule';
+
+                console.log("Step 2.");
+                var bar = foo + "by mixing qoute types";
+
+                console.log("Step 3.");
+                console.error(bar);
+            };
+        </script>
+    </head>
+    <body>
+        <div>Text in Tangerine</div>
+        <span>and another text in Rancho</span>
+        <p>we also have a text with the default font</p>
+    </body>
+</html>
